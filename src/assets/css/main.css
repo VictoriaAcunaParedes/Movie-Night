@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.card-title, h1, h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+    .btn-movie {
+        background-color: #07745c;
+        color: white;
+        border: none;
+    }
+
+    .btn-movie:hover {
+        background-color: #06866b;
+        color: white;
+    }
+
+    .btn-movie-delete {
+    background-color: #7f1d1d;
+    border: none;
+    color: white;
+    }
+
+    .btn-movie-delete:hover {
+        background-color: #991b1b;
+        color: white;
+    }
